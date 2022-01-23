@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    alexckrandomizer (0.1.1)
+    alexckrandomizer (0.1.2)
 
 GEM
   remote: https://rubygems.org/

@@ -5,12 +5,14 @@ require_relative "alexckrandomizer/version"
 module Alexckrandomizer
   class Error < StandardError; end
 
-  def coinflip
-    number = rand(1..2)
-    if number == 1
-      return "heads"
-    else
-      return "tails"
+  class Coin
+    def flip
+      number = rand(1..2)
+      if number == 1
+        return "heads"
+      else
+        return "tails"
+      end
     end
   end
 
