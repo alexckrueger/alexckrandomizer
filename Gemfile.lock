@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    alexckrandomizer (0.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.6)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  alexckrandomizer!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.2.32
